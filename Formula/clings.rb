@@ -1,28 +1,28 @@
 class Clings < Formula
   desc "Small exercises to learn advanced C concepts - inspired by rustlings"
   homepage "https://github.com/cdelmonte-zg/clings"
-  version "0.2.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/cdelmonte-zg/clings/releases/download/v0.2.0/clings-v0.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "6eff0a6430fadf49d0b37fde0266c584edebabca5cf545d6fd38c3c1361e7d78"
+      url "https://github.com/cdelmonte-zg/clings/releases/download/v0.1.1/clings-v0.1.1-aarch64-apple-darwin.tar.gz"
+      sha256 "4ee60e86fb3f882dfd3cf9151d42f0cbe52a6cdd47272e730a902d74f0739573"
     end
     on_intel do
-      url "https://github.com/cdelmonte-zg/clings/releases/download/v0.2.0/clings-v0.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "18ee28b4ee91cc9390c4c0a9f24a51e21af16fba043fc28823b33edea95ee473"
+      url "https://github.com/cdelmonte-zg/clings/releases/download/v0.1.1/clings-v0.1.1-x86_64-apple-darwin.tar.gz"
+      sha256 "3faf450aa34123a71410f4f718af3a9357008bb4faab5447cd1571e8668b3639"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/cdelmonte-zg/clings/releases/download/v0.2.0/clings-v0.2.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "686d5a54fbf70233cd66102ada07a35e5c6fdb6a46b09e87b48ef1cd5a1f582f"
+      url "https://github.com/cdelmonte-zg/clings/releases/download/v0.1.1/clings-v0.1.1-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "ccc876ad706cca1a25aa85574b2e1e5979d009567394d2ff04d9f0670024e674"
     end
     on_intel do
-      url "https://github.com/cdelmonte-zg/clings/releases/download/v0.2.0/clings-v0.2.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "133e823c3c3de13a8cab40ec2a054708a218ffdd45763e204459278218ad15f8"
+      url "https://github.com/cdelmonte-zg/clings/releases/download/v0.1.1/clings-v0.1.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "895fab88c1095a21f8f86372e6c9d50bf0bac9ffe706a847bab6ec48f0cf78ff"
     end
   end
 
