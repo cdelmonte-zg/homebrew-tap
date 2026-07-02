@@ -1,28 +1,28 @@
 class DeltaExplain < Formula
   desc "Make Delta pruning visible: CLI for partition pruning and data skipping in Delta Lake"
   homepage "https://github.com/cdelmonte-zg/delta-explain"
-  version "0.2.3"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/cdelmonte-zg/delta-explain/releases/download/v0.2.3/delta-explain-aarch64-apple-darwin.tar.gz"
-      sha256 "4223d95d260347533dbd83211cfa87ccf14d8a32477554bc6756ae2460742496"
+      url "https://github.com/cdelmonte-zg/delta-explain/releases/download/v0.3.0/delta-explain-aarch64-apple-darwin.tar.gz"
+      sha256 "f96b6b638ce0a21c60e42ca18ea75167b1ed35a572eec2c120249cdf9dc5b3b5"
     end
     on_intel do
-      url "https://github.com/cdelmonte-zg/delta-explain/releases/download/v0.2.3/delta-explain-x86_64-apple-darwin.tar.gz"
-      sha256 "54928f504a70bc21ffbcea9ab942f47c3c9a6ac6bf424de04457b48204f81dac"
+      url "https://github.com/cdelmonte-zg/delta-explain/releases/download/v0.3.0/delta-explain-x86_64-apple-darwin.tar.gz"
+      sha256 "87c26908012d3a60a2f8344fc644942ef5afd9f11f0ecadbb7be659fa192326b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/cdelmonte-zg/delta-explain/releases/download/v0.2.3/delta-explain-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "753fe0acfa25ddca0612bdf804f668d82318a8cbe1d8e92acb9fa25ed2cda8b4"
+      url "https://github.com/cdelmonte-zg/delta-explain/releases/download/v0.3.0/delta-explain-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "0c663209827f3d787362eae6ab9170459ce7a4ddefd681e65d8a0bf52d52cf60"
     end
     on_intel do
-      url "https://github.com/cdelmonte-zg/delta-explain/releases/download/v0.2.3/delta-explain-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "bb9e0b3e67fc5c8304a6bce26f6bea399bbd4738c6627106db431892a50ec733"
+      url "https://github.com/cdelmonte-zg/delta-explain/releases/download/v0.3.0/delta-explain-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "7fc4404acde8ac6232a7248b31366aa7127e564c5b8b81ebfae5431d18e78a00"
     end
   end
 
