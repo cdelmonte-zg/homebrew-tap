@@ -1,28 +1,28 @@
 class DeltaExplain < Formula
   desc "Make Delta pruning visible: CLI for partition pruning and data skipping in Delta Lake"
   homepage "https://github.com/cdelmonte-zg/delta-explain"
-  version "0.3.0"
+  version "0.4.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/cdelmonte-zg/delta-explain/releases/download/v0.3.0/delta-explain-aarch64-apple-darwin.tar.gz"
-      sha256 "f96b6b638ce0a21c60e42ca18ea75167b1ed35a572eec2c120249cdf9dc5b3b5"
+      url "https://github.com/cdelmonte-zg/delta-explain/releases/download/v0.4.0/delta-explain-aarch64-apple-darwin.tar.gz"
+      sha256 "283bb7a3d47745d6a8b6a45cc068fe1bfe03288429889b3b493a7739b57a633b"
     end
     on_intel do
-      url "https://github.com/cdelmonte-zg/delta-explain/releases/download/v0.3.0/delta-explain-x86_64-apple-darwin.tar.gz"
-      sha256 "87c26908012d3a60a2f8344fc644942ef5afd9f11f0ecadbb7be659fa192326b"
+      url "https://github.com/cdelmonte-zg/delta-explain/releases/download/v0.4.0/delta-explain-x86_64-apple-darwin.tar.gz"
+      sha256 "b754bffba2c766314ed42cb59540c61aba582ad102a26572cb399dfaaf5a6e49"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/cdelmonte-zg/delta-explain/releases/download/v0.3.0/delta-explain-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "0c663209827f3d787362eae6ab9170459ce7a4ddefd681e65d8a0bf52d52cf60"
+      url "https://github.com/cdelmonte-zg/delta-explain/releases/download/v0.4.0/delta-explain-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "0a78b37eeb218b1dd7b5bf1b3df2c7d2654e38236f371ddf3c9dd5e15343bd58"
     end
     on_intel do
-      url "https://github.com/cdelmonte-zg/delta-explain/releases/download/v0.3.0/delta-explain-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "7fc4404acde8ac6232a7248b31366aa7127e564c5b8b81ebfae5431d18e78a00"
+      url "https://github.com/cdelmonte-zg/delta-explain/releases/download/v0.4.0/delta-explain-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "b207590470416432b953aa0b40186ada729a33a2efac4aab906e62905cdfe1ed"
     end
   end
 
