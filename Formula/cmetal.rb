@@ -32,9 +32,9 @@ class Cmetal < Formula
 
   def caveats
     <<~EOS
-      cmetal needs the exercises repository to run:
-        git clone https://github.com/cdelmonte-zg/cmetal.git
-        cd cmetal && cmetal
+      The curriculum is embedded in the binary. To get started:
+        cmetal init my-c-exercises
+        cd my-c-exercises && cmetal
       A C compiler with C11 support (gcc or clang) is also required.
     EOS
   end
