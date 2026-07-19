@@ -4,6 +4,8 @@ class Clings < Formula
   version "0.3.0"
   license "MIT"
 
+  deprecate! date: "2026-07-19", because: "it was renamed to cmetal"
+
   on_macos do
     on_arm do
       url "https://github.com/cdelmonte-zg/clings/releases/download/v0.3.0/clings-v0.3.0-aarch64-apple-darwin.tar.gz"
