@@ -1,28 +1,28 @@
 class Cmetal < Formula
   desc "Small exercises to learn advanced C concepts - inspired by rustlings"
   homepage "https://github.com/cdelmonte-zg/cmetal"
-  version "0.4.0"
+  version "0.4.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/cdelmonte-zg/cmetal/releases/download/v0.4.0/cmetal-v0.4.0-aarch64-apple-darwin.tar.gz"
-      sha256 "f6eeb1e562879375455d79208190a02e01444bc8aa4e492fea64c27d61945afd"
+      url "https://github.com/cdelmonte-zg/cmetal/releases/download/v0.4.1/cmetal-v0.4.1-aarch64-apple-darwin.tar.gz"
+      sha256 "f5a789fcf46e8f769782974b498f69f6cab3167b6a91ca207ea66623560f3c77"
     end
     on_intel do
-      url "https://github.com/cdelmonte-zg/cmetal/releases/download/v0.4.0/cmetal-v0.4.0-x86_64-apple-darwin.tar.gz"
-      sha256 "7e746e08c1e25b473ac35b4e8fbe146f1b3e76c3491d083c5d3ec6e407a01bb2"
+      url "https://github.com/cdelmonte-zg/cmetal/releases/download/v0.4.1/cmetal-v0.4.1-x86_64-apple-darwin.tar.gz"
+      sha256 "e2811cb9c886f7db66a8c7a0b85b08f4742582ef99ca93ca51e1861638f1bcf0"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/cdelmonte-zg/cmetal/releases/download/v0.4.0/cmetal-v0.4.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "c46a1cb9201d9642178da6793193c7f2926f58b41ce26b529267031353ee7582"
+      url "https://github.com/cdelmonte-zg/cmetal/releases/download/v0.4.1/cmetal-v0.4.1-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "bd9e6127539810fd7ed1ec3942bf74e4ea409f9ac6ebd017ba869425626d5809"
     end
     on_intel do
-      url "https://github.com/cdelmonte-zg/cmetal/releases/download/v0.4.0/cmetal-v0.4.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "df589386bec37fb0ca370a23634d06134b77f4ed6cc22b88b0586d79a6a9e207"
+      url "https://github.com/cdelmonte-zg/cmetal/releases/download/v0.4.1/cmetal-v0.4.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "5948d06f75efe5d9919e7a3e74b8cf9983df4e71392ba52fb9dbbac4b115d002"
     end
   end
 
